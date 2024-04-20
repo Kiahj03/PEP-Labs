@@ -1,0 +1,1 @@
+SELECT id, first_name, last_name, salary FROM employee WHERE (last_name = 'Steve' OR first_name = 'Steve') AND salary > 75000;
